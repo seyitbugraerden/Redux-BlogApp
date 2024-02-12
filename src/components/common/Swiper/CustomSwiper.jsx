@@ -20,37 +20,40 @@ function CustomSwiper() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://picsum.photos/200/200" alt="" />
+          <div className="text-area">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+          </div>
+          <img src="https://picsum.photos/600/600" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://picsum.photos/200/200" alt="" />
+          <img src="https://picsum.photos/600/600" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://picsum.photos/200/200" alt="" />
+          <img src="https://picsum.photos/600/600" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://picsum.photos/200/200" alt="" />
+          <img src="https://picsum.photos/600/600" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://picsum.photos/200/200" alt="" />
+          <img src="https://picsum.photos/600/600" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://picsum.photos/200/200" alt="" />
+          <img src="https://picsum.photos/600/600" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://picsum.photos/200/200" alt="" />
+          <img src="https://picsum.photos/600/600" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://picsum.photos/200/200" alt="" />
+          <img src="https://picsum.photos/600/600" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://picsum.photos/200/200" alt="" />
+          <img src="https://picsum.photos/600/600" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://picsum.photos/200/200" alt="" />
+          <img src="https://picsum.photos/600/600" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://picsum.photos/200/200" alt="" />
+          <img src="https://picsum.photos/600/600" alt="" />
         </SwiperSlide>
       </Swiper>
     </div>
