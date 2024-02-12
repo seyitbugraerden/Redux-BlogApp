@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function PostItem() {
   return (
@@ -15,9 +16,11 @@ function PostItem() {
           eligendi aspernatur maiores? Sequi nisi quaerat vel voluptatibus nulla
           nobis molestiae!
         </p>
-        <button className="detail_button">
-          İncele<i class="bi bi-arrow-right"></i>
-        </button>
+        <Link to="/detay">
+          <button className="detail_button">
+            İncele<i class="bi bi-arrow-right"></i>
+          </button>
+        </Link>
       </div>
     </div>
   );

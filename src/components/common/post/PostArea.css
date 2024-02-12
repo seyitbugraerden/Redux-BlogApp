@@ -2,4 +2,4 @@
 .card-area .card{display: grid;grid-template-columns: 50% 50%;gap: 30px;padding: 40px;background-color: #EDE4DE;color: black;margin-top: 40px;}
 .card-area .card p{font-size: 24px;font-weight: 300;}
 .card-area .card img{max-width: 100%;}
-.card-area .detail_button{background-color: #64422A;color: white;padding: 5px 60px 5px;border-radius: 5em;}
+.card-area .detail_button{background-color: #64422A;color: white;padding: 5px 60px 5px;border-radius: 5em;cursor: pointer;}
