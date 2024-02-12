@@ -6,8 +6,10 @@ function BlogMain() {
   return (
     <>
       <HeaderArea />
-      <h1>BlogMain</h1>
-      <FooterArea />
+      <div className="container">
+        <h1>BlogMain</h1>
+        <FooterArea />
+      </div>
     </>
   );
 }
