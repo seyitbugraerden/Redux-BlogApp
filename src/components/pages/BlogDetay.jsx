@@ -1,7 +1,12 @@
 import React from "react";
+import HeaderArea from "../common/header/header";
 
 function BlogDetay() {
-  return <div>BlogDetay</div>;
+  return (
+    <>
+      <HeaderArea />
+    </>
+  );
 }
 
 export default BlogDetay;
