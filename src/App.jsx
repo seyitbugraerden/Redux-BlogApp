@@ -1,6 +1,7 @@
-import BlogDetay from "./components/BlogDetay";
-import BlogMain from "./components/BlogMain";
+import BlogDetay from "./components/pages/BlogDetay";
+import BlogMain from "./components/pages/BlogMain";
 import { Routes, Route } from "react-router-dom";
+import "./main.css";
 
 function App() {
   return (
