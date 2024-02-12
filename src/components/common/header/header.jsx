@@ -10,6 +10,13 @@ function Header() {
       />
       <div className="text-area">
         <h1>Cornflakes and milk</h1>
+        <ul>
+          <li>read</li>
+          <li className="dot"></li>
+          <li>write</li>
+          <li className="dot"></li>
+          <li>eat</li>
+        </ul>
       </div>
     </header>
   );
