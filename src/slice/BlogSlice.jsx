@@ -3,7 +3,7 @@ import data from "../components/data/db.json";
 
 const BlogSlice = createSlice({
   name: "blog",
-  initialState: data,
+  initialState: { data },
 });
 
 export default BlogSlice.reducer;

@@ -10,8 +10,8 @@ function PostArea() {
       <h1 className="black">Latest Post</h1>
       <div className="line"></div>
       <div className="card-area">
-        {data.map((item, index) => (
-          <p key={index}>{item.id}</p>
+        {data.map((item) => (
+          <PostItem />
         ))}
       </div>
     </div>
