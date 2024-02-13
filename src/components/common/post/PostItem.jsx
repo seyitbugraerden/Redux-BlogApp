@@ -1,24 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { onTheClick } from "../../../slice/BlogSlice";
+import { useDispatch } from "react-redux";
 
-function PostItem() {
+function PostItem({ post }) {
+  const dispatch = useDispatch();
   return (
     <div className="card">
       <div className="card-img">
         <img src="https://picsum.photos/900/600" alt="" />
       </div>
       <div className="card-text">
-        <h2>Lorem, ipsum.</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          temporibus illo blanditiis similique error est ea iure, nemo ipsam qui
-          dolorem numquam minima iste placeat dignissimos molestias quam facilis
-          eligendi aspernatur maiores? Sequi nisi quaerat vel voluptatibus nulla
-          nobis molestiae!
-        </p>
+        <h2>{post.title}</h2>
+        <p>{post.description}</p>
         <Link to="/detay">
-          <button className="detail_button">
-            İncele<i class="bi bi-arrow-right"></i>
+          <button
+            className="detail_button"
+            onClick={() => {
+              dispatch(onTheClick(post.id));
+            }}
+          >
+            İncele<i className="bi bi-arrow-right"></i>
           </button>
         </Link>
       </div>
