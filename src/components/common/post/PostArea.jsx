@@ -11,7 +11,7 @@ function PostArea() {
       <div className="line"></div>
       <div className="card-area">
         {data.map((item) => (
-          <PostItem />
+          <PostItem key={item.id} post={item} />
         ))}
       </div>
     </div>
