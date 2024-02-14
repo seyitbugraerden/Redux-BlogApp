@@ -1,10 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { onTheClick } from "../../../slice/BlogSlice";
-import { useDispatch } from "react-redux";
 
 function PostItem({ post }) {
-  const dispatch = useDispatch();
   return (
     <div className="card">
       <div className="card-img">
@@ -13,13 +10,8 @@ function PostItem({ post }) {
       <div className="card-text">
         <h2>{post.title}</h2>
         <p>{post.description}</p>
-        <Link to="/detay">
-          <button
-            className="detail_button"
-            onClick={() => {
-              dispatch(onTheClick(post.id));
-            }}
-          >
+        <Link to={`/detay/${post.id}`}>
+          <button className="detail_button">
             İncele<i className="bi bi-arrow-right"></i>
           </button>
         </Link>

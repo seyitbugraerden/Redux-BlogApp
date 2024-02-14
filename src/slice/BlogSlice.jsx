@@ -3,17 +3,8 @@ import data from "../components/data/db.json";
 
 const BlogSlice = createSlice({
   name: "blog",
-  initialState: { data, selectedData: null },
-  reducers: {
-    onTheClick: (state, action) => {
-      const postId = action.payload;
-      const selectedPost = state.data.find((post) => post.id === postId);
-      if (selectedPost) {
-        state.selectedData = selectedPost;
-      }
-    },
-  },
+  initialState: { data },
+  reducers: {},
 });
 
-export const { onTheClick } = BlogSlice.actions;
 export default BlogSlice.reducer;
